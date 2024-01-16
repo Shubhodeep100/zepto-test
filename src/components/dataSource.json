@@ -1,6 +1,4 @@
 {
-  
- 
   "data": [
     "Águilas",
     "Ajedrez",
@@ -9,65 +7,77 @@
     "Alusivos",
     "Análisis de Escritura a Mano",
     "Dyarbakır",
-    "Derepazarı ",
+    "Derepazarı",
     "Gülümsemek ",
     "Teşekkürler",
     "Güle güle.",
     "Gülhatmi",
     "Gülünç"
   ],
- 
- 
+
   "empList": [
     {
       "Name": "Andrew Fuller",
       "Eimg": "7",
       "Job": "Team Lead",
-      "Country": "England"
+      "Country": "England",
+      "Images": "../assets/brain.png"
     },
     {
       "Name": "Anne Dodsworth",
       "Eimg": "1",
       "Job": "Developer",
       "Country": "USA",
-      "Image": "../assets/heart.png"
+      "Images": "../assets/eyes.png"
     },
-    { "Name": "Janet Leverling", "Eimg": "3", "Job": "HR", "Country": "USA" },
+    {
+      "Name": "Janet Leverling",
+      "Eimg": "3",
+      "Job": "HR",
+      "Country": "USA",
+      "Images": "../assets/paw-print.png"
+    },
     {
       "Name": "Laura Callahan",
       "Eimg": "2",
       "Job": "Product Manager",
-      "Country": "USA"
+      "Country": "USA",
+      "Images": "../assets/colon.png"
     },
     {
       "Name": "Margaret Peacock",
       "Eimg": "6",
       "Job": "Developer",
-      "Country": "USA"
+      "Country": "USA",
+      "Images": "../assets/eyes.png"
     },
     {
       "Name": "Michael Suyama",
       "Eimg": "9",
       "Job": "Team Lead",
-      "Country": "USA"
+      "Country": "USA",
+      "Images": "../assets/handprint.png"
     },
     {
       "Name": "Nancy Davolio",
       "Eimg": "4",
       "Job": "Product Manager",
-      "Country": "USA"
+      "Country": "USA",
+      "Images": "../assets/good-morning.png"
     },
     {
       "Name": "Robert King",
       "Eimg": "8",
       "Job": "Developer ",
-      "Country": "England"
+      "Country": "England",
+      "Images": "../assets/heart.png"
     },
     {
       "Name": "Steven Buchanan",
       "Eimg": "10",
       "Job": "CEO",
-      "Country": "England"
+      "Country": "England",
+      "Images": "../assets/pet-food.png"
     }
   ]
 }

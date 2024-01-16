@@ -1,6 +1,9 @@
 import "./index.css";
 import * as React from "react";
-import { useCallback, useEffect } from "react";
+import { useCallback } from "react";
+
+
+
 
 import { MultiSelectComponent } from "@syncfusion/ej2-react-dropdowns";
 
@@ -26,11 +29,9 @@ const Templates = () => {
       <div>
         <img
           className="empImage"
-          //   src={
-          //     "https://ej2.syncfusion.com/react/demos/src/combo-box/Employees/" +
-          //     data.Eimg +
-          //     ".png"
-          //   }
+          src={
+            "https://ej2.syncfusion.com/react/demos/src/combo-box/Employees/"
+          }
           alt="employee"
         />
         <div className="ms-ename">{data.Name}</div>
@@ -42,14 +43,14 @@ const Templates = () => {
   const valueTemplate = useCallback((data) => {
     return (
       <div>
-        <img className="valueTemp" src={data.Image} alt="employee" />
+        {/* <img className="valueTemp" src={data.Image} alt="employee" /> */}
         <div className="nameTemp">{data.Name}</div>
       </div>
     );
   }, []);
   return (
     <div id="multitemp" className="control-pane">
-      <div className="control-section ">
+      <div className="control-section">
         <div id="multitemplate" className="control-styles">
           <h4>Employees</h4>
           <MultiSelectComponent
